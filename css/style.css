@@ -1,4 +1,56 @@
-.recipeListMain {
+body {
+   
+}
+
+.titleText{
     color: #2ff5c2;
+    font-family: Dancing Script, Arial;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -40px;
+} 
+
+.subTitleText{
+    color: #d2026b;
+    font-family: Andada Pro, Arial;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -50px;
+} 
+
+.centerItem {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.mainImgs {
+    display: inline-block;
+    border-radius: 0%;
+    width: 50vh;
+    height: auto;
+    margin-top: 10px;
+    
+}
+
+#mainImg1 {
+    float: left;
+    margin-left: 25%;
+}
+
+#mainImg2 {
+}
+
+.recipeListMain {
+    margin-top: 14px;
+    text-align: center;
+    color: #2ff5c2;
+    font-family: Andada Pro, Arial;
+    font-size: 27px;
     list-style-type: none;
 } 
+
+.recipeListItemMain {
+    margin: 10px;
+}
