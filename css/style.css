@@ -2,6 +2,25 @@ body {
    
 }
 
+.pageBorder1 {
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    margin-left: 22%;
+    margin-right: 22%;
+    border-color: #d2026b;
+}
+.pageBorder2 {
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    margin-left: .5%;
+    margin-right: .5%;
+    border-color: #d2026b;
+}
+
 .titleText{
     color: #2ff5c2;
     font-family: Dancing Script, Arial;
@@ -13,7 +32,7 @@ body {
 .subTitleText{
     color: #d2026b;
     font-family: Andada Pro, Arial;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     margin-top: -50px;
 } 
@@ -28,19 +47,17 @@ body {
 .mainImgs {
     display: inline-block;
     border-radius: 0%;
-    width: 50vh;
+    width: 25vw;
     height: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 
 #mainImg1 {
     float: left;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
-#mainImg2 {
-}
 
 .recipeListMain {
     margin-top: 14px;
@@ -52,5 +69,5 @@ body {
 } 
 
 .recipeListItemMain {
-    margin: 10px;
+    margin: 15px;
 }
